@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Security.AccessControl;
 
 namespace GradeStatistic
@@ -44,10 +44,8 @@ namespace GradeStatistic
             return idx + MinGrad;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns>1-5 if valid, 0 invalid</returns>
+
+        // <returns  1-5 if it is valid, if is not  returns 0
         static int ReadGrade()
         {
             Console.Write("Grade: ");
